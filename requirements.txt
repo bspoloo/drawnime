@@ -1,0 +1,30 @@
+# --- Núcleo de PyTorch ---
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# --- Modelos de difusión (Stable Diffusion, ControlNet, VAE, etc.) ---
+diffusers>=0.27.2
+transformers>=4.43.3
+accelerate>=0.32.0
+safetensors>=0.4.3
+
+# --- PEFT / LoRA ---
+peft>=0.11.1
+bitsandbytes>=0.43.0
+
+# --- Procesamiento de imágenes ---
+Pillow>=10.3.0
+opencv-python>=4.10.0
+tqdm>=4.66.4
+
+# --- Entrenamiento y utilidades ---
+datasets>=3.0.1
+numpy>=1.26.4
+scipy>=1.12.0
+
+# --- Opcional: solo si usarás ControlNet o Img2Img ---
+xformers>=0.0.27.post2
+
+# --- Sistema ---
+huggingface-hub>=0.24.6
